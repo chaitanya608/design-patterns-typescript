@@ -1,0 +1,18 @@
+{
+    "name": "design-patterns-typescript",
+    "version": "1.0.0",
+    "description": "A playpen project created to learn design patterns from https://medium.com/dev-genius/building-a-scalable-user-management-system-in-typescript-with-design-patterns-3e8ffd50ca12",
+    "main": "./src/index.ts",
+    "repository": "https://github.com/chaitanya608/design-patterns-typescript.git",
+    "author": "Chaitanya V",
+    "private": true,
+    "scripts": {
+      "start": "yarn rimraf && tsc && node ./dist/index.js",
+      "build": "tsc",
+      "rimraf": "rm -rf ./dist"
+    },
+    "devDependencies": {
+      "typescript": "^5.6.3"
+    }
+}
+  
